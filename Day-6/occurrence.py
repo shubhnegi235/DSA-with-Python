@@ -10,7 +10,7 @@ def foccurrence(arr, target):
         elif arr[mid]<target:
             low=mid+1
         else:
-            high-mid-1
+            high=mid-1
     return ans
 
 arr=[2,4,4,4,7,9,11]
